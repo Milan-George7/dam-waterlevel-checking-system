@@ -1,0 +1,16 @@
+{
+  "name": "dam-water-level-monitoring",
+  "version": "1.0.0",
+  "description": "Dam Water Level Monitoring System using MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm start --prefix frontend",
+    "dev-backend": "npm run dev --prefix backend",
+    "seed-admin": "node backend/scripts/seedAdmin.js"
+  },
+  "keywords": ["dam", "monitoring", "mern", "water-level"],
+  "author": "",
+  "license": "ISC"
+}
